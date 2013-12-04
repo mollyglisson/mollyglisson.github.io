@@ -54,8 +54,10 @@ header {
 	width:100%;
 	
 }
-body {
-	font-family: 'Cherry Swash', cursive;
+header img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 /*------navigation------*/
@@ -81,7 +83,9 @@ nav ul li a {
   	font-family: 'Cherry Swash', cursive;
 }
 nav ul li a:hover {
-	background-color: #c6a2d7;
+	font-weight: bold;
+	color: #000000;
+	background-color: #be94d1;
 }
 /*------content------*/
 article {
@@ -93,31 +97,47 @@ article {
 	margin-bottom: 15px;
 }
 article img {
-	width: 90%;
+	width: 75%;
 }
-
+.clear {
+	clear: both;
+	width:100%;
+}
+p{
+	font-size: 105%;
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
 /*------footer------*/
 footer {
 	width: 100%;
+	background-color: #000000; 	
+	height:60px;
 }
 footer ul {
+	font-family: 'Cherry Swash', cursive;
 	text-align: center;
+	padding-top:23px;
 }
-footer ul li{
+footer ul li {
 	display: inline;
-	
+}
+
+footer ul li a {
+	color: #ffffff;
+	text-decoration: none;
 }
 /*------biography content------*/
 h1 {
+	font-family: 'Cherry Swash', cursive;
 	font-weight: bold;
-	color: #c6a2d7;
-	font-size: 150%
-	text-shadow: 4px 4px 8px rgba(150, 150, 150, 1);
+	color: #be94d1;
+	font-size: 155%;
+	text-shadow: 2px 2px 8px rgba(150, 150, 150, 1);
+	margin-top: 0em;
+	margin-bottom: 1em;
 }
 /*------portfolio------*/
-dancer {
-	height: 50%;
-	width: 50%;
-}
+
 	
 
