@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Cherry Swash';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cherry Swash'), local('CherrySwash-Regular'), url(http://themes.googleusercontent.com/static/fonts/cherryswash/v1/HqOk7C7J1TZ5i3L-ejF0vnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
